@@ -8,6 +8,7 @@ import { MaterialModule } from './material.module';
 import { CoreModule } from './core/core.module';
 import { RoutingModule } from './routing.module';
 import { PostModule } from './post/post.module';
+import { GalleryModule } from './gallery/gallery.module';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { PostModule } from './post/post.module';
     MaterialModule,
     CoreModule,
     RoutingModule,
-    PostModule
+    PostModule,
+    GalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
