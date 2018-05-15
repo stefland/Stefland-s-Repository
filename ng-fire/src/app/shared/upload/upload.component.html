@@ -1,0 +1,7 @@
+<label for="file">
+  <!-- Si un utilisateur upload une image, alors le bouton devient actif -->
+  <!-- Avec cette input, nous pouvons uplaoder qu'une photos -->
+  <input type="file" (change)="detect($event)" >
+</label>
+<!-- Sinon il est désactivé -->
+<button [disabled]="!selection" (click)="upload()">Upload</button>

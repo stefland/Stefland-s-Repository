@@ -1,0 +1,27 @@
+@import '/Users/stefland/Desktop/DEV/UDEMY_Angular-5-and-firebase-the-must-have-features-for-your-app/ng-fire/node_modules/@angular/material/_theming.scss';
+
+@include mat-core();
+
+$speakency-app-primary: mat-palette($mat-primary);
+$speakency-app-accent: mat-palette($mat-primary);
+$speakency-app-warn:    mat-palette($mat-warn);
+
+$speakency-app-theme: mat-light-theme($speakency-app-primary, $speakency-app-accent, $speakency-app-warn);
+
+@include angular-material-theme($speakency-app-theme);
+
+:root {
+  --app-background-color: #FFD777;
+  --app-primary-color: white;
+  --app-font-color: #282A36;
+}
+
+body {
+  margin: 0;
+  background-color: var(--app-primary-color);
+  color: var(--app-font-color);
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

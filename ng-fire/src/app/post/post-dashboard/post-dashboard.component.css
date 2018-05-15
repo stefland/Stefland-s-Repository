@@ -1,0 +1,43 @@
+mat-card {
+  margin: 0.5em 16px auto;
+  max-width: 600px;
+  background-color: #282A36;
+  color: white;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-card-actions {
+  padding: 0.5em;
+}
+
+img {
+  width: 100%;
+  min-height: 50px;
+}
+
+.image-preview {
+  width: 100%;
+  min-height: 50px;
+  background-color: #282A36;
+}
+
+#save {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  margin-top: 5px;
+
+  background-color: var(--app-background-color);
+  color: var(--app-font-color);
+}
+
+:host ::ng-deep .mat-input-underline {
+  background-color: #282A36;
+}
+
+:host ::ng-deep .mat-input-placeholder {
+  color: white;
+}
